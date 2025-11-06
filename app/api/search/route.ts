@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import * as cheerio from "cheerio";
 
-const EXTERNAL_API_BASE = "http://localhost:3001";
+const EXTERNAL_API_BASE = "https://purdue-ece-faculty-backend.vercel.app/";
 
 interface FacultyMember {
   name: string;
